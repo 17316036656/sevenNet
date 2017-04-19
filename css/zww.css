@@ -1,0 +1,495 @@
+#b06 { width: 640px;}
+
+#b06 .dots { position: absolute; left: 0; right: 0; bottom: 20px;}
+
+#b06 .dots li 
+
+{ 
+
+    display: inline-block; 
+
+    width: 10px; 
+
+    height: 10px; 
+
+    margin: 0 4px; 
+
+    text-indent: -999em; 
+
+    border: 2px solid #fff; 
+
+    border-radius: 6px; 
+
+    cursor: pointer; 
+
+    opacity: .4; 
+
+    -webkit-transition: background .5s, opacity .5s; 
+
+    -moz-transition: background .5s, opacity .5s; 
+
+    transition: background .5s, opacity .5s;
+
+}
+
+#b06 .dots li.active 
+
+{
+
+    background: #fff;
+
+    opacity: 1;
+
+}
+
+#b06 .arrow { position: absolute; top: 200px;}
+
+#b06 #al { left: 15px;}
+
+#b06 #ar { right: 15px;}
+.notice_full {
+    border-bottom: 1px #e5e5e6 solid;
+    height: 61px;
+}
+.notice{
+    width: 1000px;
+    height: auto;
+    padding-top: 15px;
+    margin: 0 auto;
+
+}
+.notice dt{
+    width: 180px;
+    float: left;
+    font-size: 18px;
+    color: #000;
+}
+.notice dd li{
+    width: 730px;
+    overflow: hidden;
+    height:30px;
+    float: left;
+    line-height: 30px;
+}
+
+.notice dt h2{
+    font-size: 18px;
+    color: #000;
+    font-weight: 400;
+    line-height: 30px;
+}
+.notice dd li span {
+    float: left;
+    padding-right: 20px;
+    line-height: 30px;
+}
+
+.cooperationLogo{
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+.cooperationLogo dt,.homeCase dt{
+    height: 30px;
+    border-bottom: 1px #d5d5d5 solid;
+}
+.cooperationLogo h3,.homeCase h3{
+    font-weight: 400;
+    color: #000;
+    font-size: 18px;
+}
+.cooperationLogo dd li{
+    height: 130px;
+    float: left;
+    text-align: center;
+    margin: 0 22px;
+}
+.homeCase {
+    width: 1000px;
+    padding-bottom: 51px;
+    padding-top: 3px;
+    height: auto;
+    margin: 0 auto;
+}
+.homeCase dt h3 {
+    width: 337px;
+    float: left;
+}
+.homeCase dt h4 {
+    float: right;
+    font-weight: 400;
+    font-size: 13px;
+    color: #919191;
+    padding-right: 50px;
+    padding-top: 5px;
+    position: relative;
+}
+.homeCase dt h3 a.all {
+    padding-left: 15px;
+    color: #004e96;
+}
+.homeCase dt h4 a {
+    color: #919191;
+    background: url(../images/cline.jpg) no-repeat center right;
+    padding: 0 5px;
+}
+.homeCase dt h4 .more {
+    position: absolute;
+    right: 13px;
+    top: 5px;
+    font-size: 13px;
+    color: #919191;
+}
+.homeCase dt h4 .more a {
+    color: #919191;
+    background: 0 0;
+}
+.homeCase dt h4 .more a:hover, .homeCase dt h4 a.hover {
+    color: #004e96;
+}
+.homeCase ul{
+    width: 1050px;
+}
+.homeCase li {
+    width: 236px;
+    height: 167px;
+    position: relative;
+    margin-top: 19px;
+    float: left;
+    margin-right: 19px;
+    display: inline;
+}
+.hNews1 {
+    width: 1000px;
+    height: 248px;
+    margin: 0 auto;
+}
+
+.hnLeft {
+    width: 652px;
+    float: left;
+}
+.hnLeft dl {
+    position: relative;
+    width: 100%;
+}
+.hnLeft dl .lineT{
+    background: #004e96;
+    height: 2px;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 700;
+    width: 218px;
+    display: block;
+}
+.hnLeft dt {
+    width: 650px;
+    overflow: hidden;
+    background: #f8f8f9;
+    height: 34px;
+    line-height: 32px;
+    border: 1px #c7cbce solid;
+    border-top: 2px #c7cbce solid;
+    display: block;
+}
+.yahei {
+    font-family: "Microsoft Yahei";
+}
+.hnLeft dt li{
+    width: 216px;
+    float: left;
+    line-height: 34px;
+    text-align: center;
+    cursor: pointer;
+    color: #000;
+    border-right: 1px solid #c7cbce;
+    display: block;
+}
+.hnLeft dt li a{
+    font-size: 18px;
+}
+.hnLeft dt ul {
+    width: 680px;
+}
+.hnLeft dd {
+    width: 652px;
+    overflow: hidden;
+    padding-top: 15px;
+}
+.hnLeft dd ul {
+    width: 700px;
+}
+.hnLeft dd li {
+    width: 350px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    color: #4a4a4a;
+    font-size: 13px;
+}
+.hnR {
+    float: right;
+    width: 326px;
+}
+.hnR li {
+    width: 145px;
+    height: 57px;
+    cursor: pointer;
+    float: left;
+    border: 1px #d4d4d4 solid;
+    margin-left: 11px;
+    margin-bottom: 10px;
+    display: inline;
+}
+.hnR li .pic {
+    width: 60px;
+    height: 57px;
+    float: left;
+}
+.hnR li .txt i{
+    display: block;
+    font-size: 15px;
+    margin-top: 14px;
+    margin-bottom:6px;
+    color: #6a6a6a;
+    }
+.hnR li .txt {
+    float: left;
+    font-size: 15px;
+}
+.hnR li .txt span{
+    color: #a4a4a4
+}
+.hnR li .n1 {
+    background:url(../image/n1.png) no-repeat center center;
+}
+.hnR li .n2 {
+    background:url(../image/n2.png) no-repeat center center;
+}
+.hnR li .n3 {
+    background:url(../image/n3.png) no-repeat center center;
+}
+
+.hnR li .n4 {
+    background:url(../image/n4.png) no-repeat center center;
+}
+
+.hnR li .n5 {
+    background:url(../image/n5.png) no-repeat center center;
+}
+
+.hnR li .n6 {
+    background:url(../image/n6.png) no-repeat center center;
+}
+.hNews2 {
+    width: 1000px;
+    height: 288px;
+    margin: 0 auto;
+}
+.hNews2 dl{
+    width: 1050px;
+}
+.hNews2 dd {
+    width: 304px;
+    float: left;
+    margin-right: 40px;
+    display: inline;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.hNews2 dd h2 {
+    position: relative;
+    height: 28px;
+    line-height: 15px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #131313;
+    border-bottom: 1px solid #d4d4d4
+}
+.hNews2 dd h2 .hh{
+    font-size: 18px;
+}
+.hNews2 dl dd h2 .more {
+    font-size: 12px;
+    color: #dcdcdc;
+    margin-top: 6px;
+}
+.hNews2 dd h2 .more a{
+    color: #dcdcdc;
+}
+.hNews2 dd ul li {
+    width: 304px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    font-size: 13px;
+    color: #666;
+}
+.hNews2 dd ul li span {
+    color: #004e96;
+}
+.links {
+    width: 1000px;
+    height: 30px;
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    line-height: 30px;
+    font-size: 13px;
+    position: relative;
+    padding: 10px 0;
+    margin:0 auto;
+}
+.linksIcon {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    position: absolute;
+    right: 7px;
+    top: 16px;
+	background:url(../image/z.jpg) no-repeat;
+}
+.links dt {
+    float: left;
+    color: #000;
+    line-height: 30px;
+}
+.links dd {
+    float: left;
+    width: 910px;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+}
+.links dd a {
+    white-space: nowrap;
+    display: inline-block;
+    color: #959595;
+    padding: 0 9px;
+}
+.servicesBox{width:1000px;
+    margin:0 auto;
+    clear:both;
+    line-height:18px;
+    color:#999999;
+    font-size:12px;
+    text-align: center;
+}
+
+.servicesBox .serBox{cursor:pointer;
+    border:1px solid #fff;
+    display:inline;
+    height: 153px;
+    width: 228px;
+    float:left;
+    overflow:hidden;
+    background-color:#f7f7f7;
+    position:relative;
+    margin-right: 27px;
+    text-align: center;
+}
+
+.servicesBox .serBoxOn{
+    font-family:"微软雅黑";
+    display:none;
+    width:320px;
+    height:270px;
+    background: #004e96;
+    border: 1px solid #09c;
+    position:absolute;
+    left:0px;
+    top:0px;
+    z-index:19;
+}
+
+.servicesBox .serBox .pic1{
+    width: 110px;
+    height: 86px;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    z-index: 99;
+    text-align: center;
+
+}
+
+.servicesBox .serBox .pic2{
+    width:110px;
+    height:86px;
+    text-align:center;
+    position:absolute;
+    top:22px;
+    left:-110px;
+    z-index:99;
+}
+
+.servicesBox .serBox .txt1{
+    width:198px;
+    height:100px;
+    color:#999999;
+    position:absolute;
+    top:80px;
+    left:15px;
+    z-index:99;
+}
+
+.servicesBox .serBox .txt2{
+    width:198px;
+    height:100px;
+    color:#a9cf4f;
+    position:absolute;
+    top:80px;
+    right:-240px;
+    z-index:99;
+}
+
+.servicesBox .serBox span.tit{
+    font-size:12px;
+    display:block;
+    margin-left: 15px;
+    text-align:center;
+}
+
+.servicesBox .serBox .txt1 .tit{
+    color: #c1c1c1;
+    text-align:center;
+    line-height:30px;
+}
+.servicesBox .serBox .txt1 .pp{
+    margin-left: 20px;
+}
+.servicesBox .serBox .txt2 .tit{
+    color:#c1c1c1;
+    line-height:30px;
+    font-family:"微软雅黑";
+    text-align:center;
+}
+
+.servicesBox .serBox p{
+    padding:0 10px;
+    text-align:center;
+    line-height:30px;
+    font-size: 18px;
+    color:#999;
+}
+.homeTz{
+    padding-top: 43px;
+    width: 1000px;
+    margin: 0 auto;
+}
+#servicesBox {
+    clear: both;
+    display: block;
+    padding-bottom: 27px;
+    padding-top: 43px;
+    width: 1000px;
+    text-align: center
+
+}
+
+
+
+
+
+

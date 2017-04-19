@@ -1,0 +1,225 @@
+.one{
+    width: 100%;
+    height: 84px;
+    background: #004e96;
+    margin-top: 135px;
+}
+.one ul{
+    margin: 0 auto;
+    width: 732px;
+}
+.one li{
+    margin-right:50px;
+    float: left;
+}
+.one li a{
+    line-height: 84px;
+    font-size:18px;
+    color:#fff;
+    width: 72px;
+    height: 84px;
+    display: inline-block;
+    background-position: bottom center;
+}
+.oneactive{
+    background: url("../image/ctbg.jpg") no-repeat;
+}
+.one li a:hover{
+    text-decoration:underline;
+}
+#two{
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+.two .top{
+    height: 44px;
+    border-bottom: 1px solid #ddd;
+    padding-left: 100px;
+    padding-top: 86px;
+    margin-bottom: 23px;
+}
+.two .top a{
+    font-size:22px;
+    color:#004e96;
+}
+.two .top a span{
+    font-size:15px;
+    color:#999;
+    margin-left: 10px;
+}
+#two .two{
+    width:1000px;
+    margin: 0 auto;
+}
+.two .bottom .gp{
+    line-height: 24px;
+}
+.two .bottom p{
+    font-size:13px;
+    color:#666;
+}
+.two .bottom .gi{
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 80px;
+}
+.two .bottom .ga{
+    font-size:13px;
+    color:#666;
+    font-family: "Microsoft Yahei";
+    text-indent: 1em;
+    font-weight: bold;
+}
+.two .bottom .wenhuap{
+    line-height: 48px;
+}
+.two .bottom .ga:hover{
+    text-decoration: underline;
+    color:#004e96;
+}
+.two .wenhuatop{
+    margin-bottom: 11px;
+}
+.two .wenhuabottom{
+    margin-bottom: 87px;
+}
+.two .zizhitop{
+    margin-bottom: 116px;
+}
+.two .zizhibottom{
+    height: 580px;
+}
+.two .shejibottom p{
+    line-height: 48px;
+    margin-top: 35px;
+    margin-bottom: 39px;
+}
+.two .fuwubottom p{
+    line-height: 24px;
+}
+.two .fuwubottom h3{
+    line-height: 72px;
+    font-size:14px;
+    color:#666;
+    font-weight: bold;
+}
+.two .fuwubottom{
+    margin: 71px 0 51px 0;
+}
+.two .zhifubottom table{
+    width: 208px;
+    border: 1px solid #eee;
+    border-bottom: none;
+    border-collapse: collapse;
+    display: inline-block;
+    margin-bottom: 3px;
+    margin-right: 9px;
+    margin-left: 13px;
+}
+.two .zhifutop{
+    margin-bottom: 28px;
+}
+.two .zhifubottom td{
+    font-size:13px;
+    color:#666;
+    border-bottom: 1px solid #eee;
+}
+.two .zhifubottom img{
+    height: 27px;
+}
+.two .zhifubottom .table1{
+    width: 680px;
+    margin: 0;
+    margin-bottom: 50px;
+}
+.two .table1 .td1{
+    border-right: 1px solid #eee;
+}
+.two .table1 .td2{
+    width: 100%;
+    line-height: 45px;
+}
+.two .zhifuh3{
+    margin: 33px 0 7px 0;
+    font-size:12px;
+    color:#666;
+}
+.two .zhifubottom .table1 b{
+    font-size:13px;
+    font-weight: bold;
+}
+.three{
+    width: 100%;
+    height: 99px;
+    background: url("../image/in_09.jpg");
+    padding-top: 45px;
+
+}
+.three1{
+    width: 1004px;
+    margin: 0 auto;
+}
+.three h2{
+    font-size:24px;
+    color:#fff;
+    margin-top: 17px;
+    margin-right: 63px;
+}
+.three .a1{
+    width: 188px;
+    height: 50px;
+    background: #24b701;
+    line-height: 50px;
+    text-align: center;
+    color:#fff;
+    font-size:16px;
+    border-radius: 3px;
+}
+.three a:hover{
+    text-decoration:underline;
+}
+.three .a2{
+   width: 160px;
+   height: 50px;
+   background: #004e96;
+   line-height: 50px;
+   text-align: center;
+   color:#fff;
+   font-size:16px;
+   border-radius: 3px;
+}
+.three .sp1{
+    margin:21px 37px 0;
+    font-size:14px;
+    color:#fff;
+}
+.three .sp2{
+    margin:21px 26px 0;
+    font-size:14px;
+    color:#fff;
+}
+.three i{
+    width: 14px;
+    height: 35px;
+    background: url("../image/guanyu1.jpg") no-repeat;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.three p{
+    font-size:14px;
+    color:#fff;
+    line-height: 18px;
+    margin-top: -5px;
+}
+.onshow{
+    display: block;
+}
+#starsIF{
+    width: 1000px;
+    margin: 0 auto;
+}
+h1{
+    margin-top: 23px;
+}
+

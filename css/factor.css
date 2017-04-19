@@ -1,0 +1,412 @@
+.banner{
+    width: 1000px;
+    margin: 0 auto;
+}
+.header{
+    height: 134px;
+    background: #FFF;
+    position: fixed;
+    top: 0;
+    z-index:55;
+    width: 100%;
+    border-bottom: 1px solid #eceef0;
+}
+.header .tel{
+    border-bottom: 1px #eceef0 solid;
+    height: 44px;
+    line-height: 44px;
+    font-size: 12px;
+    color: #004e96;
+}
+.tel ul li{
+    background: url(../image/tel.jpg) no-repeat left center;
+    padding-left: 18px;
+    margin-right: 8px;
+}
+.tel ul li b{
+    font-weight: normal;
+    padding-right: 6px;
+    border-right:1px solid #eceef0;
+    color: #004e96;
+}
+.tel ul li:last-child b{
+    border:none;
+}
+.tel ol li a{
+    color: #5c5c5c;
+    padding: 0 10px;
+}
+.header ol li:first-child a{
+    border-right:1px solid #eceef0;
+    margin-right: 5px;
+}
+.header ol li:nth-child(2) a{
+    background: url(../image/mobans.jpg) left no-repeat;
+    padding-left: 18px;
+}
+.header ol li:nth-child(3) a{
+    background: url(../image/zhubajie.jpg) left no-repeat;
+    padding-left: 18px;
+}
+.header ol li:nth-child(4) a{
+    background: url(../image/alibaba.jpg) left no-repeat;
+    padding-left: 18px;
+}
+.header ol li:nth-child(5) a{
+    background: url(../image/iphone.jpg) left no-repeat;
+    padding-left: 13px;
+}
+.header .logo{
+    height: 89px;
+}
+.header .logo ul{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+.logo li{
+    width: 105px;
+    text-align: center;
+}
+.logo  a{
+    color: #141414;
+    font-size: 15px;
+}
+
+.caseTop{
+    height: 84px;
+    background: #004e96;
+    text-align: center;
+    line-height: 84px;
+    margin-bottom: 83px;
+    margin-top: 135px;
+}
+.caseTop a{
+    color: #FFF;
+    font-size: 18px;
+    margin-right: 50px;
+    display: inline-block;
+}
+.caseTop a.hover{
+    background: url(../image/ctbg.jpg) no-repeat bottom center;
+}
+
+.contract{
+    padding-bottom: 50px;
+}
+.contract h3{
+    font-size: 22px;
+    line-height: 27px;
+    padding: 0 10px 20px 100px;
+    border-bottom: 1px solid #ddd;
+    color: #004e96;
+    margin-bottom: 30px;
+}
+.contract h3 a{
+    font-size: 22px;
+    color: #004e96;
+}
+.contract h3 a span{
+    font-size: 22px;
+    color: #999;
+    font-family: "Times New Roman",Times,serif;
+    padding-left:10px;
+}
+.contract p{
+    line-height: 21px;
+    color: #333333;
+    font-size: 13px;
+}
+
+
+.join{
+    height: 144px;
+    color: #fff;
+    background: url("../image/in_09.jpg") no-repeat;
+}
+.join_in span.span1{
+    font-size: 24px;
+    line-height: 144px;
+}
+.join_in span.span2{
+    font-size: 14px;
+    line-height: 144px;
+    margin: 0 37px;
+}
+.join_in span.span3{
+    font-size: 14px;
+    line-height: 144px;
+    margin: 0 26px;
+}
+.join_in .a1{
+    background-color: #24b701;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 63px;
+    margin-top: 45px;
+    text-align: center;
+    width: 188px;
+}
+.join_in .a2{
+    background-color: #004e96;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 45px;
+    text-align: center;
+    width: 160px;
+}
+.join_in div b{
+    display: inline-block;
+    height: 36px;
+    margin-top: 10px;
+    width: 14px;
+    background: url(../image/chinese_img.png) no-repeat scroll -553px 0;
+}
+.join_in div{
+    margin-top: 40px;
+}
+.join_in div p{
+    color: #fff;
+    font-size: 14px;
+    margin-left: 10px;
+    width: 240px;
+}
+.message{
+    height: 313px;
+    background: #eee url("../image/footer_top_bg.gif");
+}
+.message dl{
+    width: 333px;
+    font-size: 14px;
+}
+.message dl:last-child{
+    width: 280px;
+}
+.message dl dt{
+    color: #000;
+    height: 80px;
+    line-height: 80px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.message dl:first-child ul li{
+    width: 333px;
+    padding-bottom: 29px;
+}
+.message dl:first-child img{
+    width: 94px;
+    height: 64px;
+    border: 1px #ddd solid;
+}
+.message dl:first-child .txt{
+    width: 164px;
+    padding-left: 11px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.message dl:first-child .txt a{
+    color: #787878;
+    display: block;
+    padding-bottom: 12px;
+}
+.message dl:first-child .txt p{
+    color: #919191;
+}
+.message dl:nth-child(2) li{
+    line-height: 28px;
+}
+.message dl:nth-child(2) a{
+    color: #a4a4a4;
+    font-size: 13px;
+}
+.message dl:last-child li{
+    line-height: 28px;
+    white-space:nowrap;
+    overflow:hidden	;
+    text-overflow:ellipsis;
+    padding-right: 35px;
+}
+.message dl:last-child a{
+    color: #a4a4a4;
+    font-size: 13px;
+}
+.about{
+    padding-top: 25px;
+    height: 260px;
+}
+.about ul{
+    width: 1100px;
+}
+.about li{
+    width: 155px;
+}
+.about ul span{
+    font-size: 16px;
+    color: #004e96;
+    padding-bottom: 10px;
+    display: block;
+}
+.about a{
+    font-size: 13px;
+    line-height: 24px;
+    color: #666;
+    display: table;
+}
+.footer{
+    height: 61px;
+    line-height: 61px;
+    background: #151515;
+    width: 100%;
+    color: #666;
+    font-size: 12px;
+}
+.footer div:only-child{
+    width: 970px;
+    margin: 0 auto;
+}
+.footer .left{
+    width: 450px;
+}
+.footer a{
+    color: #666;
+}
+.footer div:only-child img{
+    margin-left: 20px;
+    padding-top: 17px;
+}
+.footer .right{
+    padding-left: 17px;
+    background:url("../image/beian.gif") no-repeat 0 22px;
+}
+
+.service{
+    position: fixed;
+    top: 175px;
+    right: 0;
+    z-index: 99;
+}
+.service ul li{
+    width: 70px;
+    height: 70px;
+    background: #666;
+    margin-bottom: 1px;
+}
+.service ul li:hover{
+    background: #004e96;
+}
+.service li p{
+    width: 32px;
+    height: 32px;
+    margin-left: 18px;
+}
+.service li:first-child p{
+    background: url("../image/646d71c9-2439-4e9d-a9f9-79601dce0ed8_32_32_UniformFill.png") no-repeat 0 6px;
+}
+.service li:nth-child(2) p{
+    background: url("../image/15c984c7-2d5c-4027-8791-f3ad53c8f731_32_32_UniformFill.png") no-repeat 0 6px;
+}
+.service li:nth-child(3) p{
+    background: url("../image/3cdd334e-72a5-4d7e-bc6c-fe9384af49d8_32_32_UniformFill.png") no-repeat 0 6px;
+}
+.service li:nth-child(4) p{
+    background: url("../image/4a2a9683-ee90-4116-8d82-577ce58141b7_32_32_UniformFill.png") no-repeat 0 6px;
+}
+.service ul li span{
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+}
+.service .hotLine{
+    display: none;
+    height: 70px;
+    position: absolute;
+    right: 70px;
+    top: 71px;
+    min-width: 130px;
+    max-width: 200px;
+    min-height: 35px;
+    padding: 20px 10px;
+    background-color: #004e96;
+}
+.service .hotLine i{
+    width: 5px;
+    height: 9px;
+    position: absolute;
+    top: 22px;
+    right: 0;
+    background: url(../image/arrow-section-r.gif) no-repeat;
+}
+.service .hotLine em{
+    width: 140px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+
+.items{
+    display: none;
+    border: 1px #eceef0 solid;
+    border-top: none;
+    padding-left: 40px;
+    background: #fff;
+    position: fixed;
+    top: 133px;
+    left: 170px;
+    z-index: 888;
+    -moz-box-shadow: 4px 4px 3px rgba(20%,20%,40%,.5);
+    -webkit-box-shadow: 4px 4px 3px rgba(20%,20%,40%,.5);
+    box-shadow: 4px 4px 3px rgba(20%,20%,40%,.5);
+}
+.items dl{
+    width: 170px;
+    border-right: 1px #e0e2e2 solid;
+    margin-right: 30px;
+    margin-bottom: 0;
+}
+.items dl:last-child{
+    margin-right: 0;
+    border-right: none;
+}
+.items dt{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #004e96;
+    text-align: left;
+    font-weight: 700;
+    font-size: 15px;
+}
+.items dt span{
+    display: block;
+    padding-top: 23px;
+}
+.items dt span img{
+    width: 50px;
+    height: 50px;
+}
+.items dd li{
+    width: 123px;
+    border-bottom: 1px #eaeced solid;
+    height: 37px;
+    line-height: 37px;
+    color: #666;
+    text-align: left;
+    font-size: 15px;
+}
+.items dd li a{
+    color: #141414;
+    font-size: 15px;
+}
